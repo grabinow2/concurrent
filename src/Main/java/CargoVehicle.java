@@ -1,7 +1,13 @@
 package Main.java;
 
+/**
+ * a vehicle that does cargo.
+ */
 public abstract class CargoVehicle implements Vehicle {
 
+    /**
+     * max weight capacity
+     */
     private double weightCapacity;
 
     @Override

@@ -1,7 +1,13 @@
 package Main.java;
 
+/**
+ * a vehicle that does people.
+ */
 public abstract class TransportVehicle implements Vehicle {
 
+    /**
+     * max occupancy
+     */
     private int maxOccupancy;
 
     @Override
